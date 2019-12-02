@@ -28,7 +28,7 @@ let schedule = loanSchedule.calculateSchedule({
 	term: 12,
 	paymentOnDay: 25,
 	issueDate: "25.10.2016",
-	scheduleType: loanSchedule.ANNUITY_SCHEDULE
+	scheduleType: LoanSchedule.ANNUITY_SCHEDULE
 }).payments.forEach(function (pay) {
 	console.log(pay.paymentDate + "\t|\t\t"
         + pay.initialBalance + "\t|\t\t"
