@@ -56,7 +56,7 @@ LoanSchedule.DIFFERENTIATED_SCHEDULE = "DIFFERENTIATED";
 LoanSchedule.BUBBLE_SCHEDULE = "BUBBLE";
 
 // Essentially copying imports to an object? Huh?
-// What does `mapping` do?
+// `mapping` is an object. Missed that. 🙄
 mapping[LoanSchedule.ANNUITY_SCHEDULE] = AnnuitySchedule;
 mapping[LoanSchedule.BUBBLE_SCHEDULE] = BubbleLoanSchedule;
 mapping[LoanSchedule.DIFFERENTIATED_SCHEDULE] = DifferentiatedSchedule;
